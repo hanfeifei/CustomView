@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.yyc.custom.views.DashboardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#000000"
+        app:board_color="@color/board_default"
+        app:board_width="1dp" />
+
+    <com.yyc.custom.views.DashboardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#40000000"
+        app:board_color="@color/board_green"
+        app:board_width="1dp" />
+
+    <com.yyc.custom.views.DashboardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#90000000"
+        app:board_color="@color/board_red"
+        app:board_width="1dp" />
+</LinearLayout>
